@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BrandCraft – AI Branding System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>BrandCraft</h1>
+        <p>Generative AI–Powered Branding Automation System</p>
+
+        <form id="brandForm">
+            <label>Business Name</label>
+            <input type="text" id="businessName" placeholder="Enter business name" required>
+
+            <label>Business Type</label>
+            <input type="text" id="businessType" placeholder="Eg: Startup, Cafe, Tech" required>
+
+            <label>Target Audience</label>
+            <input type="text" id="audience" placeholder="Eg: Students, Professionals">
+
+            <button type="submit">Generate Branding</button>
+        </form>
+
+        <div class="output">
+            <h2>Generated Brand Content</h2>
+            <p id="result">Your AI generated brand content will appear here.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
